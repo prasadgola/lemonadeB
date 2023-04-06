@@ -38,7 +38,7 @@ fun LemonadeApp(modifier: Modifier = Modifier
     .fillMaxSize()
 ) {
     Text(text = "hello")
-//    LemonadeWithIamgeAndText()
+    LemonadeWithIamgeAndText()
 }
 
 @Composable
