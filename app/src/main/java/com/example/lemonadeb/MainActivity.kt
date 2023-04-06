@@ -37,7 +37,6 @@ class MainActivity : ComponentActivity() {
 fun LemonadeApp(modifier: Modifier = Modifier
     .fillMaxSize()
 ) {
-    Text(text = "hello")
     LemonadeWithIamgeAndText()
 }
 
@@ -49,6 +48,7 @@ fun LemonadeWithIamgeAndText(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
             ) {
         Text(stringResource(id = R.string.tap_tree_directions))
+
         Image(painter = painterResource(id = R.drawable.lemon_drink), contentDescription = result.toString() )
     }
 }
